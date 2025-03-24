@@ -406,6 +406,260 @@
 				)
 			)
 		)
+		(symbol "LED:WS2812B-2020"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B-2020"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B-2020_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_1_1"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_SL_Pin_Headers:PINHD_1x3_Male"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2371,6 +2625,82 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 247.65 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0878875f-e75b-4a16-974f-98b02fc08714")
+		(property "Reference" "D1"
+			(at 261.62 97.8214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 261.62 100.3614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 248.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 250.19 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 247.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "61358fe4-96c8-4bda-8193-a93f1328fd5c")
+		)
+		(pin "2"
+			(uuid "d873cad5-0a18-4c1d-ac33-30b1b942551a")
+		)
+		(pin "4"
+			(uuid "fae1cf51-6221-4aa7-92db-4213605ccab3")
+		)
+		(pin "1"
+			(uuid "5247e165-c744-423b-ac44-c3422b18246d")
+		)
+		(instances
+			(project ""
+				(path "/e8736a94-4ef8-408c-b7cc-dcf1b7df2117"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Pin_Headers:PINHD_1x3_Male")
 		(at 219.71 36.83 0)
 		(unit 1)
@@ -2462,7 +2792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PINHD_1x3_Male"
+		(property "Value" "Ex Switch in"
 			(at 262.89 35.5599 0)
 			(effects
 				(font
@@ -3011,7 +3341,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PINHD_1x3_Male"
+		(property "Value" "IR In"
 			(at 262.89 26.6699 0)
 			(effects
 				(font
@@ -3048,13 +3378,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "1681b84f-499f-4543-842c-087e113d49fc")
+			(uuid "1681b84f-499f-4543-842c-087e113d49fd")
 		)
 		(pin "1"
-			(uuid "7957df03-d318-4ca0-82a1-4356d375ac89")
+			(uuid "7957df03-d318-4ca0-82a1-4356d375ac8a")
 		)
 		(pin "2"
-			(uuid "f505dbef-749a-424b-925c-1eba87be52ac")
+			(uuid "f505dbef-749a-424b-925c-1eba87be52ad")
 		)
 		(instances
 			(project ""
@@ -3121,13 +3451,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "1681b84f-499f-4543-842c-087e113d49fc")
+			(uuid "1681b84f-499f-4543-842c-087e113d49fe")
 		)
 		(pin "1"
-			(uuid "7957df03-d318-4ca0-82a1-4356d375ac89")
+			(uuid "7957df03-d318-4ca0-82a1-4356d375ac8b")
 		)
 		(pin "2"
-			(uuid "f505dbef-749a-424b-925c-1eba87be52ac")
+			(uuid "f505dbef-749a-424b-925c-1eba87be52ae")
 		)
 		(instances
 			(project ""
@@ -3140,7 +3470,7 @@
 	)
 	(symbol
 		(lib_id "Relay:Relay_SPDT")
-		(at 181.61 146.05 0)
+		(at 214.63 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3149,7 +3479,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0354c73-b952-4c55-b3dc-fd5d98dfebd6")
 		(property "Reference" "K1"
-			(at 193.04 144.7799 0)
+			(at 226.06 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3488,7 @@
 			)
 		)
 		(property "Value" "Relay_SPDT"
-			(at 193.04 147.3199 0)
+			(at 226.06 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 147.32 0)
+			(at 226.06 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3507,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 146.05 0)
+			(at 214.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +3516,7 @@
 			)
 		)
 		(property "Description" "Relay SPDT, monostable, EN50005"
-			(at 181.61 146.05 0)
+			(at 214.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3567,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PINHD_1x3_Male"
+		(property "Value" "~"
 			(at 262.89 44.4499 0)
 			(effects
 				(font
@@ -3274,13 +3604,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "1681b84f-499f-4543-842c-087e113d49fc")
+			(uuid "1681b84f-499f-4543-842c-087e113d49ff")
 		)
 		(pin "1"
-			(uuid "7957df03-d318-4ca0-82a1-4356d375ac89")
+			(uuid "7957df03-d318-4ca0-82a1-4356d375ac8c")
 		)
 		(pin "2"
-			(uuid "f505dbef-749a-424b-925c-1eba87be52ac")
+			(uuid "f505dbef-749a-424b-925c-1eba87be52af")
 		)
 		(instances
 			(project ""

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "_SHA-PCB V-easyedapro")(type "KiCad")(uri "${KIPRJMOD}/_SHA-PCB V-easyedapro.kicad_sym")(options "")(descr ""))
+)
